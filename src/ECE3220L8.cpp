@@ -185,6 +185,7 @@ void MessageStack::printStack(){
 	for (int i = 0; i < topOfStack; i++) {
 			ptrStack[i]->printInfo();
 		}
+	cout<<endl<<"___________________________________________________________________________________"<<endl<<endl;
 
 }
 
